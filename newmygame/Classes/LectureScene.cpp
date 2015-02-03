@@ -17,7 +17,7 @@
 #include "startScene.h"
 #include "AboutUsScene.h"
 USING_NS_CC;
-
+ 
 Scene* LectureScene::createScene()
 {
     // 'scene' is an autorelease object
