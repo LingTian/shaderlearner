@@ -27,7 +27,7 @@ Scene* CompareScene::createScene()
 
 // on "init" you need to initialize your instance
 bool CompareScene::init()
-{
+{ 
     //////////////////////////////
     // 1. super init first
     if ( !Layer::init() )
