@@ -46,38 +46,48 @@ bool singlePresent::init()
     if (Constant::getInstance()->level==2){
         flag=1;
         frag="2.png";
-
+        //    frag="gray.fsh";
+        
     }else if(Constant::getInstance()->level==3){
         flag=1;
         frag="3.png";
-    
+        // frag="HorizontalColor.fsh";
+        
+
     }else if(Constant::getInstance()->level==4){
         flag=2;
         frag="4.png";
-    
+        // frag="bloom.fsh";
+        
     }else if(Constant::getInstance()->level==5){
         frag="5.png";
         flag=2;
+        //  frag="edgeDetection.fsh";
+        
     }else if(Constant::getInstance()->level==6){
         flag=1;
         frag="6.png";
-    
+        //  frag="randBlur.fsh";
+        
     }else if(Constant::getInstance()->level==7){
         flag=2;
         frag="7.png";
-    
+        // frag="celShading.fsh";
+        
     }else if(Constant::getInstance()->level==8){
         frag="8.png";
         flag=2;
         
         
+        //  frag="emboss.fsh";
     }else if(Constant::getInstance()->level==9){
         frag="9.png";
         flag=2;
         
+        //      frag="example_Blur.fsh";
         
     }else{
-    
+        
     
     }
     struct  timeval start1,start2;
